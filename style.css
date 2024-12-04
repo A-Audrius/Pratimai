@@ -11,25 +11,33 @@
   div.gallery img {
     width: 100%;
     height: auto;
+    position: relative;
   }
   
   div.desc {
     padding: 15px;
-    text-align: center;
+    position: absolute;
+    /* padding: 2rem; */
   }
-  
-  * {
-    box-sizing: border-box;
-  }
+
   
   .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 30%;
   }
+     .responsive-2 {
+    padding: 0 6px;
+    float: left;
+    width: 45%;
+   }
   
   .clearfix:after {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .section-1 {
+ 
   }
